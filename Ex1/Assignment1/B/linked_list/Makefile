@@ -1,5 +1,5 @@
 # program executable name
-TARGET = linked_list
+TARGET = list_test
 
 # compiler flags
 CFLAGS = -g -Wall
