@@ -7,6 +7,7 @@ struct node {
 	struct node *prev;
 	int data;
 };
+typedef struct node *node_t;
 
 /* Internal data type representing list */
 struct list {

@@ -20,6 +20,8 @@ int main(int argc, char **argv)
 	}
 	list_print(list);
 
+
+
 	// print sum of all values in the list
 	printf("list sum: %li\n", list_sum(list));
 
