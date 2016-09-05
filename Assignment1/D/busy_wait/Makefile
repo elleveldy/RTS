@@ -1,11 +1,11 @@
 # program executable name
-TARGET = allocate
+TARGET = busy_wait
 
 # compiler flags
-CFLAGS = -g -Wall
+CFLAGS = -g -Wall 
 
 # linker flags
-LDFLAGS = -g
+LDFLAGS = -g -pthread -lrt
 
 # list of sources
 SOURCES = $(shell find -name "*.c")
